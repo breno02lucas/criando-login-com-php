@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+html, body{
+	width: 100%; height: 100%;
+	margin: 0;
+
+	background-color: #f2f2f2;
+}
+
+header{
+	height: 50px;
+}
+
+.nav-header{
+	float: left;
+	width: 45%; height: 50px;
+
+	background-color: white;
+
+	font-family: 'Roboto', sans-serif;
+}
+
+.nav-header img{
+	float: left;
+	width: 7%; height: 80%;
+	margin: 5px 10px;
+}
+
+.nav-header li{
+	display: inline-block;
+	margin: 0 8px;
+
+	line-height: 50px;
+}
+
+.nav-header a{
+	color: black;
+}
+
+.header-login{
+	float: left;
+	width: 55%; height: 50px;
+
+	background-color: white;
+
+	font-family: 'Roboto', sans-serif;
+}
+
+.form-login-header{	
+	display: inline;
+	float: left;	
+	margin: 0.7% 12px;
+}
+
+.header-login input{
+	height: 40px;
+	padding-left: 10px;
+	background-color: #f2f2f2;
+	border: none;
+}
+
+.header-login button{
+	width: 80px; height: 40px;
+
+	background-color: black;
+	border: none;
+	border-radius: 10px;
+
+	color: white;
+}
+
+.form-loggout-header{
+	float: left;	
+	margin: 0.7% 10px;
+}
+
+.header-login a{
+	float: left;
+	margin: 0 10px;
+
+	line-height: 50px;
+	color: black;
+}
+
+
